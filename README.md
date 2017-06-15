@@ -1,0 +1,3 @@
+# PermissionDemo
+
+针对Android6.0以上所需要的九种危险权限，在targetSdkVersion小于23的情况下，如何检测的Demo
