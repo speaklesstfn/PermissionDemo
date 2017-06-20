@@ -35,6 +35,5 @@ public class PhoneStatePermissionUtils {
             Log.d("TFN", "异常，手机状态没有权限");
             return false;
         }
-
     }
 }

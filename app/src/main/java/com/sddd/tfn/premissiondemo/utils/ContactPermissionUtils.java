@@ -16,6 +16,12 @@ import android.util.Log;
 
 public class ContactPermissionUtils {
 
+    /**
+     * todo 目前如果联系人列表为空，则这里无论用户设置关闭联系人权限与否，都会返回false
+     *
+     * @param context 上下文对象
+     * @return 是不是有联系人权限
+     */
     public static synchronized boolean isContactCanUse(Context context) {
 
         Cursor phoneCursor = null;
